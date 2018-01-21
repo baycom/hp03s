@@ -49,7 +49,7 @@ void mclk(int enable)
 
 void xclr(int enable) 
 {
-  pinMode (PIN_XCLR, PWM_OUTPUT);
+  pinMode (PIN_XCLR, OUTPUT);
   if(enable) {
     digitalWrite(PIN_XCLR, 1);
   } else {
